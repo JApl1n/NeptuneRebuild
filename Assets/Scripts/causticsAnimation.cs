@@ -11,7 +11,7 @@ using UnityEngine.Rendering.Universal;
 public class causticsAnimation : MonoBehaviour
 {
     public Texture[] caustics;
-    [Range(1,4.5f)]
+    [Range(1,8f)]
     public float boost = 3;
 
 

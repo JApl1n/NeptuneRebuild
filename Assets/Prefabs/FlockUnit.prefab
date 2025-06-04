@@ -280,17 +280,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66a07602c39c787439601126a1fe2a66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  energy: 20
+  energy: 30
   MyPredators:
   - Shark
   MyPreys:
   - Food
   generation: 1
   age: 0
-  energyConsume: 0.5
-  energyConsumeInterval: 1
+  energyConsume: 1
+  energyConsumeInterval: 2
   deathEffect: {fileID: 1150592362824199607, guid: 5938bce54e522a340a80b26b473d1e89, type: 3}
-  reproductionEnergyCost: 45
+  reproductionEnergyCost: 60
   FOVAngle: 270
   smoothTime: 1
   obstacleMask:

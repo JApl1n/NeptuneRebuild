@@ -33,6 +33,7 @@ public class Animal : Organism
         
         if (energy <= 0)
         {
+            Debug.Log("Old Age", gameObject);
             OnDeath();
             Destroy(gameObject);
             isAlive = false;
@@ -51,7 +52,7 @@ public class Animal : Organism
     /// <returns>The new animal object.</returns>
     protected override GameObject Reproduce()
     {
-        energy -= reproductionEnergyCost; // * 0.5f;
+        energy -= reproductionEnergyCost * 0.5f;
         return base.Reproduce();
     }
 

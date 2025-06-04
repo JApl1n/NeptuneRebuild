@@ -50,7 +50,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_2d55d1f1ca7d4fa09be73286968b089f: 40
+    - Vector1_2d55d1f1ca7d4fa09be73286968b089f: 35
     - _Intensity: 0.99
     - _QueueControl: 0
     - _QueueOffset: 0

@@ -38,7 +38,7 @@ Material:
     - _SunDiscMultiplier: 100000
     - _SunDiscMultiplierSharpness: 100000
     - _SunHaloBlendMode: 0
-    - _SunHaloContribution: 0.5
+    - _SunHaloContribution: 0
     - _SunHaloExponent: 100
     - _View: 0
     - __dirty: 0

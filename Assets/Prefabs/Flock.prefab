@@ -165,7 +165,7 @@ MonoBehaviour:
   showCenter: 1
   iqColorObject: {fileID: 3934583637015613246}
   timeBetweenFeedForward: 1
-  maxFlockSize: 15
+  maxFlockSize: 10
   flockUnitPrefabs:
   - {fileID: 7562280712972871633, guid: 3d06dba6a42032547a2059efa1dfd9af, type: 3}
   - {fileID: 7562280712972871633, guid: 93c39a361fdb748c999f688146121ee2, type: 3}

@@ -18,7 +18,7 @@ public class FlockSpawner : Spawner
             GameObject flock = Instantiate(prefab, randomPos, Quaternion.identity);
             Flock flockScript = flock.GetComponent<Flock>();
             // for (int j = 0; j < unitsPerFlock; j++)  // Use for a specific number of units per flock
-            for (int j = 0; j < Random.Range(0, maxUnitsPerFlock); j++) 
+            for (int j = 0; j < Random.Range(maxUnitsPerFlock - 2, maxUnitsPerFlock); j++) 
             {
                 flockScript.CreateUnit();
             }

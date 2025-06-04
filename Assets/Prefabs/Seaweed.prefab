@@ -137,14 +137,14 @@ MonoBehaviour:
   age: 0
   energyGrow: 2
   energyGrowInterval: 1
-  maxEnergy: 50
-  reproductionEnergyThreshold: 50
+  maxEnergy: 60
+  reproductionEnergyThreshold: 40
   reproductionEnergyCost: 30
   _reproductionEnergy: 0
   terrainLayer:
     serializedVersion: 2
     m_Bits: 64
-  maxSizeEnergy: 50
+  maxSizeEnergy: 60
 --- !u!65 &4250455635874285215
 BoxCollider:
   m_ObjectHideFlags: 0
