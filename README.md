@@ -1,1 +1,3 @@
 # NeptuneRebuild
+
+Install the files, build a unityh project from the folder. It will need to reinitialise files so may take a minute or two. Once loaded, first go to File, Build Settings... then in this panel select Android (you may have to install packages from unity hub for this). This will change the graphics of the system to what will be used for building to an Oculus headset. Finally, from your project files, go to the scenes folder. In there, drag the 'SampleScene' unity scene into the hierarchy and select the three dots on the previously empty scene to remove that old one. At this point everything should be as desired.
