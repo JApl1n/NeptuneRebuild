@@ -1,0 +1,202 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="DisplayNetworkResults">
+			<method name="SetXAxisName"/>
+			<method name="SetYAxisName"/>
+		</type>
+		<type fullname="FlareGun">
+			<method name="FireFlare"/>
+		</type>
+		<type fullname="Flock">
+			<method name="SetCohesionWeightStatic"/>
+			<method name="SetDisplayIqColorStatic"/>
+			<method name="SetFlockUnitAlignmentWeightStatic"/>
+			<method name="SetMaxFlockSize"/>
+			<method name="SetMaxFlockUnitSpeedStatic"/>
+			<method name="SetMinFlockUnitSpeedStatic"/>
+			<method name="SetMoveSpeed"/>
+			<method name="SetObstacleAvoidanceWeightStatic"/>
+			<method name="SetShowCenterStatic"/>
+			<method name="VisualiseNet"/>
+		</type>
+		<type fullname="GameController">
+			<method name="ResetGame"/>
+			<method name="SetTimeScale"/>
+		</type>
+		<type fullname="MatController">
+			<method name="ToggleTransparency"/>
+			<method name="ToggleTransparency"/>
+		</type>
+		<type fullname="Shark">
+			<method name="SetDisplayIqColorStatic"/>
+			<method name="SetMoveSpeedStatic"/>
+			<method name="VisualiseNet"/>
+		</type>
+		<type fullname="SliderValue">
+			<method name="UpdateValue"/>
+			<method name="UpdateValue"/>
+			<method name="UpdateValue"/>
+			<method name="UpdateValue"/>
+			<method name="UpdateValue"/>
+			<method name="UpdateValue"/>
+			<method name="UpdateValue"/>
+			<method name="UpdateValue"/>
+			<method name="UpdateValue"/>
+			<method name="UpdateValue"/>
+			<method name="UpdateValue"/>
+			<method name="UpdateValue"/>
+		</type>
+		<type fullname="Unity.VRTemplate.AnchorVisuals">
+			<method name="HideArrowOnTeleport"/>
+			<method name="OnAnchorEnter"/>
+			<method name="OnAnchorExit"/>
+		</type>
+		<type fullname="Unity.VRTemplate.Callout">
+			<method name="GazeHoverEnd"/>
+			<method name="GazeHoverEnd"/>
+			<method name="GazeHoverEnd"/>
+			<method name="GazeHoverEnd"/>
+			<method name="GazeHoverEnd"/>
+			<method name="GazeHoverEnd"/>
+			<method name="GazeHoverStart"/>
+			<method name="GazeHoverStart"/>
+			<method name="GazeHoverStart"/>
+			<method name="GazeHoverStart"/>
+			<method name="GazeHoverStart"/>
+			<method name="GazeHoverStart"/>
+		</type>
+		<type fullname="Unity.VRTemplate.StepManager">
+			<method name="Next"/>
+			<method name="Next"/>
+		</type>
+		<type fullname="Unity.VRTemplate.VideoTimeScrubControl">
+			<method name="OnDrag"/>
+			<method name="OnDrag"/>
+			<method name="OnPointerDown"/>
+			<method name="OnPointerDown"/>
+			<method name="OnRelease"/>
+			<method name="OnRelease"/>
+			<method name="PlayOrPauseVideo"/>
+			<method name="PlayOrPauseVideo"/>
+			<method name="PlayOrPauseVideo"/>
+			<method name="PlayOrPauseVideo"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField">
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.XR.Interaction.Toolkit" ignoreIfMissing="1">
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation.TeleportationAnchor">
+			<method name="RequestTeleport"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AudioModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.AudioSource">
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>

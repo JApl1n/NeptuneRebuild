@@ -135,7 +135,7 @@ MonoBehaviour:
   MyPreys: []
   generation: 1
   age: 0
-  energyGrow: 1
+  energyGrow: 2
   energyGrowInterval: 1
   maxEnergy: 50
   reproductionEnergyThreshold: 50

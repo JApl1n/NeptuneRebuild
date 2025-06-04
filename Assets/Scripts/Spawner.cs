@@ -22,9 +22,11 @@ public class Spawner : MonoBehaviour
     [SerializeField] protected GameObject[] prefabs;
     [SerializeField] [TagSelector] protected string prefabTag;
     [SerializeField] protected int minCount;
+    [SerializeField] protected int maxCount;
     [SerializeField] protected int initCount;
 
     private bool init = false;
+    private GameObject[] gameObjects;
 
     [SerializeField, Range(0f, 25f)] protected float spawnMinRadius;
     [SerializeField, Range(0f, 25f)] protected float spawnMaxRadius;
@@ -47,7 +49,8 @@ public class Spawner : MonoBehaviour
 
     private void FixedUpdate()
     {
-        int count = GameObject.FindGameObjectsWithTag(prefabTag).Length;
+        gameObjects = GameObject.FindGameObjectsWithTag(prefabTag);
+        int count = gameObjects.Length;
         if (count < minCount)
         {
             if (init) {
@@ -55,6 +58,12 @@ public class Spawner : MonoBehaviour
             } else {
                 Spawn(initCount);
                 init = true;  //I would do this in a start or awake function but it doesnt work so i have to do it this way
+            }
+        } else if (count > maxCount) {
+            Debug.Log("Max");
+            for (int i=0; i<(count - maxCount); i++) {
+                Debug.Log("Destroying", gameObjects[i]);
+                Destroy(gameObjects[i]);
             }
         }
     }

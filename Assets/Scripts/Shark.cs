@@ -45,10 +45,10 @@ public class Shark : Animal
             HuntingSystem.layers[1].weights[1, 1] = 1.0f;
         } else if (isBetterNet) 
         {
-            HuntingSystem.layers[1].weights[0, 0] = 0.8f;
-            HuntingSystem.layers[1].weights[0, 1] = 0.2f;
-            HuntingSystem.layers[1].weights[1, 0] = 0.2f;
-            HuntingSystem.layers[1].weights[1, 1] = 0.8f;
+            HuntingSystem.layers[1].weights[0, 0] = 0.75f;
+            HuntingSystem.layers[1].weights[0, 1] = 0.25f;
+            HuntingSystem.layers[1].weights[1, 0] = 0.25f;
+            HuntingSystem.layers[1].weights[1, 1] = 0.75f;
         }
         HuntingSystem.AssessIQ();
         

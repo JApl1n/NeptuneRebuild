@@ -17,28 +17,28 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.43137255, g: 0.7078936, b: 0.7176471, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.04
+  m_FogDensity: 0.045
   m_LinearFogStart: 10
   m_LinearFogEnd: 40
   m_AmbientSkyColor: {r: 3.7735848, g: 2.5850494, b: 0.6941973, a: 1}
   m_AmbientEquatorColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
   m_AmbientGroundColor: {r: 1, g: 1, b: 1, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0.9
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: d31918c1f737243ea821424d57000109, type: 2}
-  m_HaloStrength: 0.5
-  m_FlareStrength: 1
-  m_FlareFadeSpeed: 3
+  m_HaloStrength: 0
+  m_FlareStrength: 0
+  m_FlareFadeSpeed: 0
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 32
+  m_DefaultReflectionResolution: 16
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0.5
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 56520142}
-  m_IndirectSpecularColor: {r: 0.8849584, g: 0.7415142, b: 0.49531728, a: 1}
+  m_IndirectSpecularColor: {r: 0.4424792, g: 0.3707571, b: 0.24765864, a: 0.5}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -70,7 +70,7 @@ LightmapSettings:
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
-    m_ReflectionCompression: 2
+    m_ReflectionCompression: 1
     m_MixedBakeMode: 2
     m_BakeBackend: 1
     m_PVRSampling: 1
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: a462fe5ea842447eea73b10365a1d3ce, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 78151f5e58fb9f749bd5225f789faa27, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -1074,6 +1074,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4267648752147652952, guid: 35555f0f4481d41c2b9cd6f6d20b9c00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4295245173453829304, guid: 35555f0f4481d41c2b9cd6f6d20b9c00, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1209,7 +1213,7 @@ PrefabInstance:
     - target: {fileID: 8487088276326212242, guid: 35555f0f4481d41c2b9cd6f6d20b9c00, type: 3}
       propertyPath: m_Cookie
       value: 
-      objectReference: {fileID: 2800000, guid: e1747b61d0470aa4d8d92604cf3b34f4, type: 3}
+      objectReference: {fileID: 2800000, guid: c8d49b2ce02723345be1152394f7311e, type: 3}
     - target: {fileID: 8487088276326212242, guid: 35555f0f4481d41c2b9cd6f6d20b9c00, type: 3}
       propertyPath: m_Color.a
       value: 1
@@ -1220,7 +1224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8487088276326212242, guid: 35555f0f4481d41c2b9cd6f6d20b9c00, type: 3}
       propertyPath: m_Intensity
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8487088276326212242, guid: 35555f0f4481d41c2b9cd6f6d20b9c00, type: 3}
       propertyPath: m_Lightmapping
@@ -5264,7 +5268,7 @@ Transform:
   m_GameObject: {fileID: 361755475}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: -7, z: 0}
+  m_LocalPosition: {x: 0, y: -5, z: 0}
   m_LocalScale: {x: 10, y: 1, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5587,7 +5591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4668028291794691089, guid: 7d643532f6fba4c24816e0e0bdb5b738, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4668028291794691089, guid: 7d643532f6fba4c24816e0e0bdb5b738, type: 3}
       propertyPath: m_LocalPosition.z
@@ -39096,6 +39100,7 @@ MonoBehaviour:
   - {fileID: 4549402268923445217, guid: dd5988470a94c6b4ebb37a0463946486, type: 3}
   prefabTag: Flock
   minCount: 2
+  maxCount: 20
   initCount: 10
   spawnMinRadius: 5
   spawnMaxRadius: 15
@@ -40154,6 +40159,7 @@ MonoBehaviour:
   - {fileID: 9043552579257057057, guid: a15b6de79f03c9746be32cf2a3327474, type: 3}
   prefabTag: Shark
   minCount: 1
+  maxCount: 10
   initCount: 3
   spawnMinRadius: 20
   spawnMaxRadius: 25
@@ -40239,7 +40245,8 @@ MonoBehaviour:
   - {fileID: 6859611724586215979, guid: a8aca79422cf98041bff950db4922230, type: 3}
   prefabTag: Food
   minCount: 20
-  initCount: 30
+  maxCount: 50
+  initCount: 40
   spawnMinRadius: 5
   spawnMaxRadius: 25
 --- !u!1001 &8082471361860586650
